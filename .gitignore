@@ -1,0 +1,13 @@
+pycache/
+*.pyc
+.env
+*.key
+node_modules/
+dist/
+*.log
+venv/
+*.pem
+.sqlite
+samples/.pytest_cache/
+coverage/
+*.tsbuildinfo
