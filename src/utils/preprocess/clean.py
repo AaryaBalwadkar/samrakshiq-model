@@ -1,5 +1,4 @@
 import unicodedata
-from typing import str
 
 def normalize_text(text: str) -> str:
     """Unicode NFC, trim, collapse whitespace."""

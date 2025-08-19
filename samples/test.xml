@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<messages>
+    <message id="1" timestamp="2025-08-18T10:00:00" sender="user1">Hello, John!</message>
+    <message id="2" timestamp="2025-08-18T10:01:00" sender="user2">Call me at 1234567890</message>
+    <message id="3" timestamp="2025-08-18T10:02:00" sender="user3">My email: john.doe@example.com</message>
+</messages>

@@ -1,0 +1,5 @@
+[
+    {"id": "1", "content": "Hello John", "timestamp": "2025-08-18T10:00:00", "sender": "user1"},
+    {"id": "2", "content": "Call me at 1234567890", "timestamp": "2025-08-18T10:01:00", "sender": "user2"},
+    {"id": "3", "content": "My email: john.doe@example.com", "timestamp": "2025-08-18T10:02:00", "sender": "user3"}
+]
