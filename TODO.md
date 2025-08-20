@@ -17,13 +17,13 @@ Privacy-first SMS anonymizer for global compliance (GDPR/HIPAA/DPDP).
 - [x] Test 3 sample files, log performance
 
 ## Day 2: Rule Engine & Validators
-- [ ] Add phone validator (`src/rules/phone/validate.py`)
-- [ ] Add email validator (`src/rules/email/validate.py`)
-- [ ] Add ID validator (`src/rules/ids/validate.py`)
-- [ ] Add credit card validator (`src/rules/credit/validate.py`)
-- [ ] Implement YAML policy loader (`src/api/config/yaml_loader.py`)
-- [ ] Integrate rules in pipeline, measure latency
-- [ ] Write unit tests (`tests/unit/rules/`)
+- [x] Add phone validator (`src/rules/phone/validate.py`)
+- [x] Add email validator (`src/rules/email/validate.py`)
+- [x] Add ID validator (`src/rules/ids/validate.py`)
+- [x] Add credit card validator (`src/rules/credit/validate.py`)
+- [x] Implement YAML policy loader (`src/api/config/yaml_loader.py`)
+- [x] Integrate rules in pipeline, measure latency
+- [x] Write unit tests (`tests/unit/rules/`)
 
 ## Day 3: ML Models
 - [ ] Implement ONNX NER inference (`src/models/ner/infer.py`)
