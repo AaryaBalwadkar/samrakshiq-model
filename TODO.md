@@ -33,8 +33,8 @@ Privacy-first SMS anonymizer for global compliance (GDPR/HIPAA/DPDP).
 - [x] Write unit tests (`tests/unit/models/`)
 
 ## Day 4: Transformations + KeyStore
-- [ ] Implement redaction (`src/transform/redact/apply.py`)
-- [ ] Implement hashing (`src/transform/hash/apply.py`)
+- [x] Implement redaction (`src/transform/redact/apply.py`)
+- [x] Implement hashing (`src/transform/hash/apply.py`)
 - [ ] Implement pseudonymization (`src/transform/pseudo/apply.py`)
 - [ ] Implement FPE (`src/transform/fpe/apply.py`)
 - [ ] Add AES-256 encryption (`src/keystore/crypto/aes.py`)
