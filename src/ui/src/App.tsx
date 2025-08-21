@@ -1,35 +1,25 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react';
+import MessageList from './components/MessageList';
+import useApi from './hooks/useApi';
+import MetricsDashboard from './components/MetricsDashboard';
 
-function App() {
-  const [count, setCount] = useState(0)
+const App: React.FC = () => {
+  const { messages, metrics, loading, error } = useApi();
+
+  if (loading) return <div className="p-4 text-center">Loading...</div>;
+  if (error) return <div className="p-4 text-red-500 text-center">{error}</div>;
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+    <div className="min-h-screen bg-gray-100">
+      <header className="bg-blue-600 text-white p-4 text-center">
+        <h1 className="text-2xl font-bold">SamrakshIQ Message Review</h1>
+      </header>
+      <main>
+        <MessageList messages={messages} />
+        <MetricsDashboard metrics={metrics} />
+      </main>
+    </div>
+  );
+};
 
-export default App
+export default App;
