@@ -26,11 +26,11 @@ Privacy-first SMS anonymizer for global compliance (GDPR/HIPAA/DPDP).
 - [x] Write unit tests (`tests/unit/rules/`)
 
 ## Day 3: ML Models
-- [ ] Implement ONNX NER inference (`src/models/ner/infer.py`)
-- [ ] Add obfuscation heuristics (`src/models/obfuscate/detect.py`)
-- [ ] Build ensemble model, test on 100 messages
-- [ ] Optimize for CPU performance
-- [ ] Write unit tests (`tests/unit/models/`)
+- [x] Implement ONNX NER inference (`src/models/ner/infer.py`)
+- [x] Add obfuscation heuristics (`src/models/obfuscate/detect.py`)
+- [x] Build ensemble model, test on 100 messages
+- [x] Optimize for CPU performance
+- [x] Write unit tests (`tests/unit/models/`)
 
 ## Day 4: Transformations + KeyStore
 - [ ] Implement redaction (`src/transform/redact/apply.py`)
