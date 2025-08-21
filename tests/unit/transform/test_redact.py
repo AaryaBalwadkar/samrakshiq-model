@@ -13,8 +13,6 @@ real_messages = [
 def test_redact_entities(text):
     redacted = redact_entities(text)
     entities = infer_entities(text)
-    print(f"Original: {text}")
-    print(f"Redacted: {redacted}")
     for entity_type, entity_list in entities.items():
         for entity in entity_list:
             assert "[REDACTED]" in redacted, f"Entity {entity} not redacted in {redacted}"

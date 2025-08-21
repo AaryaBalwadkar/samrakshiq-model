@@ -13,8 +13,6 @@ real_messages = [
 def test_hash_entities(text):
     hashed = hash_entities(text)
     entities = infer_entities(text)
-    print(f"Original: {text}")
-    print(f"Hashed: {hashed}")
     for entity_type, entity_list in entities.items():
         for entity in entity_list:
             assert f"[{entity_type.upper()}_HASH:" in hashed, f"Entity {entity} not hashed in {hashed}"
