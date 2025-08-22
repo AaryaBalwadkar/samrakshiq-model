@@ -4,9 +4,9 @@ import re
 
 real_indian_messages = [
     "SBI Alert: Your UPI txn to +919876543210 is successful. Ref ID: UPI-123456. If not you, report to support@sbi.in.",
-    "HDFC Bank: Suspicious activity on card 4111-1111-1111-1111. Verify at hdfc@alert.com or call 1-800-123-4567.",
+    "HDFC Bank: Suspicious activity on card 4111-xxxx-1111-1111. Verify at hdfc@alert.com or call 1-800-123-4567.",
     "ICICI: Update your Aadhaar details via ID AA-789012. Email icici@update.in or call +918765432109.",
-    "Win Rs 1 Lakh lottery! Send credit card 5105 1051 0510 5100 to lottery@win.in. Ref: LOT-3456, phone +919223344556.",
+    "Win Rs 1 Lakh lottery! Send credit card 5105 1051 0510 5100 to lottery@win.in. Ref: LOT-3456, phone +91923344556.",
     "TRAIPotential Spam: Toll due Rs 200. Pay with card 4000-1234-5678-9012 or call +917654321098. ID: TOLL-9012.",
     "PhonePe: Rs 500 transferred to UPI ID user@phonepe. If error, email phonepe@support.in or call 1800-456-7890.",
     "Axis Bank: Alert on 4500 1234 5678 9012. Contact axis@bank.in with ref AX-5678 or phone +919445566778.",

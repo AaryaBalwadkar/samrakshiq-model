@@ -41,17 +41,17 @@ Privacy-first SMS anonymizer for global compliance (GDPR/HIPAA/DPDP).
 - [x] Write roundtrip tests, measure encryption perf
 
 ## Day 5: UI Integration + Metrics
-- [ ] Build UI components for review (`src/ui/src/components/`)
-- [ ] Style with Tailwind (`src/ui/src/styles/`)
-- [ ] Integrate API calls (`src/ui/src/hooks/useApi.ts`)
-- [ ] Add metrics dashboard (`src/utils/metrics/`)
-- [ ] Test end-to-end UI flow
+- [x] Build UI components for review (`src/ui/src/components/`)
+- [x] Style with Tailwind (`src/ui/src/styles/`)
+- [x] Integrate API calls (`src/ui/src/hooks/useApi.ts`)
+- [x] Add metrics dashboard (`src/utils/metrics/`)
+- [x] Test end-to-end UI flow
 
 ## Day 6: Red-Team Testing
-- [ ] Run adversarial tests for parsers/rules
-- [ ] Generate compliance report (`docs/compliance.md`)
-- [ ] Implement data deletion utils
-- [ ] Fix edge cases from tests
+- [x] Run adversarial tests for parsers/rules
+- [x] Generate compliance report (`docs/compliance.md`)
+- [x] Implement data deletion utils
+- [x] Fix edge cases from tests
 
 ## Day 7: Docs + Final Tests
 - [ ] Write quickstart guide (`docs/quickstart.md`)
