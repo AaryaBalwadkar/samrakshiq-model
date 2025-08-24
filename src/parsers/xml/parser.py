@@ -1,7 +1,7 @@
 from xml.etree.ElementTree import iterparse
 from typing import Iterator
 from ..common.types import MessageDict
-from utils.preprocess.clean import normalize_text
+from ...utils.preprocess.clean import normalize_text
 
 def parse_xml(file_path: str) -> Iterator[MessageDict]:
     """Stream XML messages with <message> tags."""

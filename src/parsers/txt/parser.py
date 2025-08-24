@@ -1,6 +1,6 @@
 from typing import Iterator
 from ..common.types import MessageDict
-from utils.preprocess.clean import normalize_text
+from ...utils.preprocess.clean import normalize_text
 
 def parse_txt(file_path: str) -> Iterator[MessageDict]:
     """Stream TXT messages, one per line with id:content."""

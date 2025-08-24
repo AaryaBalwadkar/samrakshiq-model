@@ -1,5 +1,5 @@
 import pytest
-from src.parsers.csv import parse_csv
+from src.parsers.csv.parser import parse_csv
 from src.schema.message import Message
 from pathlib import Path
 

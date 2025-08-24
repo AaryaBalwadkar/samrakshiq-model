@@ -1,7 +1,7 @@
 import orjson
 from typing import Iterator
 from ..common.types import MessageDict
-from utils.preprocess.clean import normalize_text
+from ...utils.preprocess.clean import normalize_text
 
 def parse_json(file_path: str) -> Iterator[MessageDict]:
     """Stream JSON messages from array or objects."""
